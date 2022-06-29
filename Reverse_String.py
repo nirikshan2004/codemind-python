@@ -1,3 +1,2 @@
-string=input()
-rev_string=string[::-1]
-print(rev_string)
+n=input()
+print(" ".join(reversed(n.split())))
